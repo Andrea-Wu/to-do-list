@@ -3,7 +3,6 @@ function display(){
 	var s = document.createElement("span"); 
 	var element = document.getElementById("myInput").value;
 	var node = document.createTextNode(element);
-	console.log("hi");
 	s.appendChild(node); //creates text element that uses input from text box
 
 	var iString = i.toString(); //turns integer into string for class name
