@@ -1,6 +1,6 @@
-var i = 0;
+var i = 0; //this variable will become a class name that connects all the components of one to-do item
 function display(){
-	var s = document.createElement("span");
+	var s = document.createElement("span"); 
 	var element = document.getElementById("myInput").value;
 	var node = document.createTextNode(element);
 	console.log("hi");
